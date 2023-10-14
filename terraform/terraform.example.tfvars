@@ -1,0 +1,14 @@
+region="us-east-1"
+main_cidr_block="10.0.0.0/16"
+public_cidr_blocks=["10.0.1.0/24", "10.0.2.0/24"]
+private_cidr_blocks=["10.0.3.0/24", "10.0.4.0/24"]
+ecr_application_tier="ha-app-application-tier"
+ecr_presentation_tier="ha-app-presentation-tier"
+rds_db_admin="admin"
+rds_db_password="myreallygoodpassword"
+multi_az=false
+db_name="mydb"
+engine_version="5.7.31"
+allocated_storage=10
+instance_class="db.t3.micro"
+db_engine="mysql"
