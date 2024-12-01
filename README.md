@@ -1,4 +1,4 @@
-HandsOn
+HandsOn Demo
 1) Clone the code - https://github.com/heydevopsorg/terrform_threetierarch.git
 2) Create the AWS account - https://aws.amazon.com/console/
 3) Install Docker and terraform on windows
